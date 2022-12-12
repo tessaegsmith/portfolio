@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Rubik:ital,wght@0,300;1,300&display=swap');
+
+body{
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  background-color: rgb(247, 243, 240, 1);
+  color: #374971;
+}
+
+header{
+  text-align: center;
+	font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  color: #707978;
+  padding: 10px;
+}
+
+/* Vertical Navigation bar */
+
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+nav li{
+  display: inline;
+  border: 1px solid #72668a;
+  padding: 6px 6px 6px 6px;
+  border-radius: 35px;
+  text-align: center;
+}
+nav li:hover{
+  background-color: rgba(114, 102, 138, .1);
+}
+
+nav a{
+  text-decoration: none;
+  text-align: center;
+  padding: 30px;
+
+}
+nav a:link{
+    color:;
+}
+nav a:visited{
+    color:;
+  
+}
+nav a:hover{
+    color:;
+}
+nav a:active{
+  color:;
+}
+
+/* Vertical Navigation bar ends */
+
+main{
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  color: #707978;
+  text-align: left;
+  padding: 10px 10px 10px 0px;
+}
+
+h2{
+  padding: 12px 10px 12px 0px;
+}
+
+i.fa{
+  font-size: 1.2em;
+}
+footer{
+  text-align: center;
+  border-top: 1px solid gray;
+  padding: 10px;
+}
+
+a:link{
+  color: #b782a1;
+}
+a:visited{
+  color: #b782a1;
+}
+a:hover{
+  color: #72668a;
+}
+a:active{
+  color: black;
+}
+
+/* Photo Gallery Starts */
+.gallery .preview{
+    width:100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+/* Photo Gallery Ends */
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+h1{
+    font-size: 3em;
+ }
+
+/* CSS Adjustments for Tablets */
+
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 2em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
